@@ -1,0 +1,153 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+/* 
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-BlackItalic.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-BoldItalic.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-Italic.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-LightItalic.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-MediumItalic.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-Thin.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src:local('Roboto');
+    src:url(../fonts/Roboto-ThinItalic.ttf);
+    font-weight: 100;
+} */
+
+body {
+    padding-bottom: 30px;
+}
+
+header {
+    text-align: center;
+}
+
+.gerb {
+    height: 159px;
+    width: 134px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-between;
+}
+
+a.button {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 40%;
+    height: 100px;
+    margin-bottom: 5%;
+    background-color: #0068c9;
+    padding: auto;
+    align-self: center;
+}
+
+a h2 {
+    font-weight: 500;
+    margin: 1em;
+}
+
+a p {
+    font-weight: 200;
+}
+
+div.button p {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: auto;
+    text-align: center;
+    font-weight: 300;
+}
+
+.chris {
+    margin-bottom: 2em;
+}
