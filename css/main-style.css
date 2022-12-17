@@ -50,7 +50,7 @@ a.button {
     text-align: center;
     border-radius: 10px;
     width: 40%;
-    height: 100px;
+    <!--height: 100px;-->
     margin-bottom: 5%;
     background-color: #0068c9;
     padding: auto;
