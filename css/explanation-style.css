@@ -1,6 +1,6 @@
-
-html, body {
+html {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
 
 @font-face {
@@ -32,10 +32,24 @@ header {
     width: 1200px;
     margin: 0 auto;
     padding-bottom: 20px;
+    flex: 1 1 auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-between;
 }
 
 section {
     margin-bottom: 3em;
+}
+
+.emblem {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -116,6 +130,14 @@ p {
     h1 {
         font-size: 24px;
     }
+
+    .emblem {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        width: 759px;
+        height: 900px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -143,6 +165,14 @@ p {
     h1 {
         font-size: 20px;
     }
+
+    .emblem {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        width: 550px;
+        height: 652px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -169,5 +199,13 @@ p {
     
     h1 {
         font-size: 16px;
+    }
+
+    .emblem {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        width: 300px;
+        height: 356px;
     }
 }
