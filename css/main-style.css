@@ -66,6 +66,10 @@ a p {
     font-weight: 200;
 }
 
+.emblem__explanation {
+    margin-bottom: 3em;
+}
+
 footer {
     height: 50px;
 }
