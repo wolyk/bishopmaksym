@@ -32,8 +32,6 @@ h1 {
 }
 
 .wrapper {
-    min-height: 100%;
-    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     justify-content: center space-between;
@@ -53,21 +51,22 @@ a.button {
     height: 100px;
     margin-bottom: 5%;
     background-color: #0068c9;
-    padding: auto;
+    /* padding: auto; */
+    
     align-self: center;
+}
+
+a.button__emblem {
+    margin-bottom: 20%;
 }
 
 a h2 {
     font-weight: 500;
-    margin: 1em;
+    margin: 2%;
 }
 
 a p {
     font-weight: 200;
-}
-
-.emblem__explanation {
-    margin-bottom: 3em;
 }
 
 footer {
@@ -78,11 +77,12 @@ footer p {
     color: black;
     text-decoration: none;
     text-align: center;
-    font-weight: 300;
+    font-weight: 200;
+    font-size: 12px;
 }
 
 .chris {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 
